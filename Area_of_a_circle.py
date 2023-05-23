@@ -1,2 +1,2 @@
-r=int(input())
-print(format(3.14*r*r,".2f"))
+n=int(input())
+print(format(3.14*n*n,".2f"))
