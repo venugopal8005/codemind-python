@@ -1,10 +1,9 @@
-import math
 n=int(input())
 s=0
+t=n
 a=abs(n)
-while(a!=0):
-    r=a%10
-    s=s*10+r
+while (a!=0):
+    s=s*10+a%10
     a=a//10
 if(n>0):
     print(s)
