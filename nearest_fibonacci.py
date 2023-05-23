@@ -17,5 +17,4 @@ if(m-n>n-s):
     print(s)
 elif(m-n<n-s):
     print(m)
-else:
-    print(s,m,sep=" ")
+else: print(s,m,sep=" ")
