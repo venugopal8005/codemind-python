@@ -1,4 +1,3 @@
-p,r,t=map(int,input().split())
-a=p*((1+(r/100))**t)
-c=a
-print(format(c,".2f"))
+a,b,c=map(int,input().split())
+x=a*((1+(b/100))**c)
+print(format(x,".2f"))
