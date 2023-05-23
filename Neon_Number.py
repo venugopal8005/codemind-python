@@ -1,10 +1,10 @@
 n=int(input())
-a=n*n
+n1=n*n
 s=0
-while a>0:
-    s=s+a%10
-    a=a//10
-if(n==s):
+while n1>0:
+    s=s+n1%10
+    n1=n1//10
+if(s==n):
     print("Neon Number")
 else:
     print("Not Neon Number")
