@@ -1,8 +1,8 @@
-n=int(input())
-for i in range(n):
+t=int(input())
+for i in range(t):
     a,b,c,d=map(int,input().split())
-    x=a/b+a/c
-    if(x>=d):
+    n=(a/b)+a/c
+    if(n>=d):
         print("Win")
     else:
         print("Lose")
